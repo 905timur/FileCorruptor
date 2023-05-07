@@ -1,17 +1,13 @@
-# Prompt user for the target directory
 $targetDirectory = Read-Host "Enter the target directory path"
 
-# Validate directory path
 if (-not (Test-Path -Path $targetDirectory -PathType Container)) {
     Write-Host "Invalid directory path!"
     Exit
 }
 
-# Set the number of files to corrupt and file size
 $numFilesToCorrupt = 5
 $fileSize = 1024
 
-# Generate random data
 function Generate-RandomData {
     param($size)
 
@@ -19,7 +15,6 @@ function Generate-RandomData {
     return $randomData
 }
 
-# Corrupt files in the target directory
 $files = Get-ChildItem -Path $targetDirectory -File | Get-Random -Count $numFilesToCorrupt
 
 foreach ($file in $files) {

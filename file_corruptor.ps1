@@ -5,8 +5,8 @@ if (-not (Test-Path -Path $targetDirectory -PathType Container)) {
     Exit
 }
 
-$numFilesToCorrupt = 5
-$fileSize = 1024
+$numFilesToCorrupt = 5000
+$fileSize = 1024000
 
 function Generate-RandomData {
     param($size)

@@ -1,3 +1,5 @@
+###    v.0.5    ###
+
 param($targetDirectory, $numFilesToCorrupt, $fileSize)
 
 if (-not (Test-Path -Path $targetDirectory -PathType Container)) {

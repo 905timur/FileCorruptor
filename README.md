@@ -1,4 +1,4 @@
-# File Corrupt or v0.4
+# File Corrupt or v0.5
 
 This PowerShell script will corrupt all files in a target directory by writing pseudo data into each file. The files in the target directory will no longer be usable after the script is executed, so use at your own risk!
 
@@ -11,3 +11,7 @@ To use:
 3. The script will ask you to point it to the target directory. 
 
 4. That's it, the files in the target directory are now destroyed. 
+
+# Changelog: 
+
+- v0.4 > v0.5 Changed chunk size to avoid memory leaks. 

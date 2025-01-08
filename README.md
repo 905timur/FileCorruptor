@@ -38,7 +38,7 @@ This PowerShell script is a utility designed to corrupt files within a specified
 - **Progress Bar**: Provides real-time feedback on the process.
 
 ### Log File
-- All operation results are saved in corruption_log.txt in the target directory.
+- All operation results are saved in corruption_log.txt in the **target directory**.
 - The log file includes:
   - File paths of successfully corrupted files.
   - Details of any failures with error messages.

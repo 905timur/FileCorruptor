@@ -1,4 +1,4 @@
-#File Corruptor v1.2.0
+# File Corruptor v1.2.0
 This PowerShell script is a utility designed to corrupt files within a specified directory by overwriting them with random data. It supports advanced features like logging, error handling, parallel processing, and a progress bar to make the process efficient and user-friendly.
 
 ---

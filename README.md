@@ -87,6 +87,8 @@ The authors are not responsible for any data loss or damages caused by using thi
 ### Changelog: 
 
 ## v1.2.0
+
+## Added
 - **Logging**: 
   - Logs details of corrupted files (successes and failures) to a `corruption_log.txt` file in the target directory.
   - Includes timestamps for the start and end of the operation.
@@ -107,4 +109,6 @@ The authors are not responsible for any data loss or damages caused by using thi
   - Modularized the script with functions (`Generate-RandomData`, `Corrupt-File`, `Parallel-Corrupt`) for improved readability and maintainability.
 
 ## v1.0.1 
+
+## Changed
 - Changed chunk size to avoid memory leaks. 

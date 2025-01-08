@@ -27,39 +27,7 @@ This PowerShell script is a utility designed to corrupt files within a specified
    ```powershell
    .\FileCorruptor.ps1
 
-
-markdown
-Copy code
-# File Corruptor Script
-
-This PowerShell script is a utility designed to corrupt files within a specified directory by overwriting them with random data. It supports advanced features like logging, error handling, parallel processing, and a progress bar to make the process efficient and user-friendly.
-
 ---
-
-## Features
-
-- **Targeted Corruption**: Corrupts a random selection of files from a directory.
-- **Custom File Parameters**: Adjustable number of files to corrupt and file size.
-- **Parallel Processing**: Corrupts files simultaneously for faster execution.
-- **Progress Tracking**: Displays a progress bar during the operation.
-- **Error Logging**: Logs the details of successful and failed corruption attempts.
-- **Chunked Writes**: Prevents memory issues by writing random data in smaller chunks.
-
----
-
-## Usage
-
-### Prerequisites
-- PowerShell 7.0 or later is recommended for optimal performance.
-- Ensure you have write permissions to the target directory.
-
-### Running the Script
-1. Clone or download this repository.
-2. Open a PowerShell terminal and navigate to the script's directory.
-3. Run the script using the following command:
-   ```powershell
-   .\FileCorruptor.ps1
-4. Follow the prompts to specify the target directory.
 
 ### Script Workflow
 - **Input Validation**: Ensures the specified directory path is valid.
@@ -102,7 +70,7 @@ You can modify the following parameters directly in the script:
 ---
 
 ## License
-This script is distributed under the MIT License. See `LICENSE` for details.
+This script is distributed under the MIT License.
 
 ---
 
@@ -114,9 +82,9 @@ Feel free to submit issues or pull requests to enhance the script.
 ## Disclaimer
 The authors are not responsible for any data loss or damages caused by using this script. Use it at your own risk.
 
+---
+
 ### Changelog: 
-
-
 
 ## v1.2.0
 - **Logging**: 
@@ -138,7 +106,7 @@ The authors are not responsible for any data loss or damages caused by using thi
 - **Code Refactoring**:
   - Modularized the script with functions (`Generate-RandomData`, `Corrupt-File`, `Parallel-Corrupt`) for improved readability and maintainability.
 
-
+---
 
 # v1.0.1 
 - Changed chunk size to avoid memory leaks. 

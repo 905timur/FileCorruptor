@@ -1,4 +1,4 @@
-#v0.5 12/24
+#v1.1.0 12/24
 
 $targetDirectory = Read-Host "Enter the target directory path"
 

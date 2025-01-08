@@ -25,7 +25,7 @@ This PowerShell script is a utility designed to corrupt files within a specified
 2. Open a PowerShell terminal and navigate to the script's directory.
 3. Run the script using the following command:
    ```powershell
-   .\FileCorruptor.ps1
+   .\file_corruptor.ps1
 
 ---
 

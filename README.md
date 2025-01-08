@@ -1,4 +1,4 @@
-# File Corruptor v0.5
+#### File Corruptor v1.1.0
 
 This PowerShell script will corrupt all files in a target directory by writing pseudo data into each file. The files in the target directory will no longer be usable after the script is executed, so use at your own risk!
 
@@ -12,6 +12,7 @@ To use:
 
 4. That's it, the files in the target directory are now destroyed. 
 
-# Changelog: 
+### Changelog: 
 
-- v0.4 > v0.5 Changed chunk size to avoid memory leaks. 
+# v1.1.0 
+- Changed chunk size to avoid memory leaks. 

@@ -106,7 +106,5 @@ The authors are not responsible for any data loss or damages caused by using thi
 - **Code Refactoring**:
   - Modularized the script with functions (`Generate-RandomData`, `Corrupt-File`, `Parallel-Corrupt`) for improved readability and maintainability.
 
----
-
-# v1.0.1 
+## v1.0.1 
 - Changed chunk size to avoid memory leaks. 

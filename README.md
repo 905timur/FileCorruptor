@@ -102,7 +102,7 @@ The authors are not responsible for any data loss or damages caused by using thi
 - **Progress Bar**:
   - Introduced a progress bar to provide real-time feedback during the operation.
 
-### Changed
+## Changed
 - **Code Refactoring**:
   - Modularized the script with functions (`Generate-RandomData`, `Corrupt-File`, `Parallel-Corrupt`) for improved readability and maintainability.
 
